@@ -5,23 +5,23 @@ interfaces. Configure interactions with HTML attributes, or use the positioning
 API from JavaScript. Position loads its drag, snap, and placement features on
 demand when their attributes are used.
 
-[Documentation and demo](https://cocreate.app/docs/position) ·
+[Documentation and demo](https://CoCreateJS.com/docs/position) ·
 [GitHub repository](https://github.com/CoCreateJS/CoCreate-position)
 
-![Minified size](https://img.badgesize.io/https://cdn.cocreate.app/position/latest/CoCreate-position.min.js?style=flat-square&label=minified&color=orange)
-![Gzip size](https://img.badgesize.io/https://cdn.cocreate.app/position/latest/CoCreate-position.min.js?compression=gzip&style=flat-square&label=gzip&color=yellow)
+![Minified size](https://img.badgesize.io/https://cdn.CoCreateJS.com/position/latest/CoCreate-position.min.js?style=flat-square&label=minified&color=orange)
+![Gzip size](https://img.badgesize.io/https://cdn.CoCreateJS.com/position/latest/CoCreate-position.min.js?compression=gzip&style=flat-square&label=gzip&color=yellow)
 ![GitHub release](https://img.shields.io/github/v/release/CoCreateJS/CoCreate-position?style=flat-square)
 ![License](https://img.shields.io/github/license/CoCreateJS/CoCreate-position?style=flat-square)
 
-![CoCreate Position demo](https://cdn.cocreate.app/docs/CoCreate-position.gif)
+![CoCreate Position demo](https://cdn.CoCreateJS.com/docs/CoCreate-position.gif)
 
 ## Install
 
 ### CDN
 
 ```html
-<link rel="stylesheet" href="https://cdn.cocreate.app/position/latest/CoCreate-position.min.css">
-<script src="https://cdn.cocreate.app/position/latest/CoCreate-position.min.js"></script>
+<link rel="stylesheet" href="https://cdn.CoCreateJS.com/position/latest/CoCreate-position.min.css">
+<script src="https://cdn.CoCreateJS.com/position/latest/CoCreate-position.min.js"></script>
 ```
 
 ### npm
@@ -198,7 +198,7 @@ continues to expose the iframe element.
 
 ## Links
 
-- [Documentation and demo](https://cocreate.app/docs/position)
+- [Documentation and demo](https://CoCreateJS.com/docs/position)
 - [Changelog](https://github.com/CoCreateJS/CoCreate-position/blob/main/CHANGELOG.md)
 - [Issues](https://github.com/CoCreateJS/CoCreate-position/issues)
 - [Contributing](https://github.com/CoCreateJS/CoCreate-position/blob/main/CONTRIBUTING.md)
@@ -206,5 +206,5 @@ continues to expose the iframe element.
 
 ## About
 
-CoCreate Position is maintained by [CoCreate](https://cocreate.app). Questions
-can be sent to [develop@cocreate.app](mailto:develop@cocreate.app).
+CoCreate Position is maintained by [CoCreate](https://CoCreateJS.com). Questions
+can be sent to [develop@CoCreateJS.com](mailto:develop@CoCreateJS.com).

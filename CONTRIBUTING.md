@@ -1,14 +1,14 @@
 # Contributing to CoCreate-position
 
-This project is work of [many contributors](https://github.com/CoCreate-app/CoCreate-position/graphs/contributors).
-You're encouraged to submit [pull requests](https://github.com/CoCreate-app/CoCreate-position/pulls),
-[propose features and discuss issues](https://github.com/CoCreate-app/CoCreate-position/issues).
+This project is work of [many contributors](https://github.com/CoCreateJS/CoCreate-position/graphs/contributors).
+You're encouraged to submit [pull requests](https://github.com/CoCreateJS/CoCreate-position/pulls),
+[propose features and discuss issues](https://github.com/CoCreateJS/CoCreate-position/issues).
 
 In the examples below, substitute your Github username for `contributor` in URLs.
 
 ## Fork the Project
 
-Fork the [project on Github](https://github.com/CoCreate-app/CoCreate-position) and check out your copy.
+Fork the [project on Github](https://github.com/CoCreateJS/CoCreate-position) and check out your copy.
 
 ```
 git position https://github.com/contributor/CoCreate-position.git
@@ -75,7 +75,7 @@ git push origin my-feature-branch
 
 ## Make a Pull Request
 
-Go to [https://github.com/CoCreate-app/CoCreate-position](https://github.com/CoCreate-app/CoCreate-position) and select your feature branch.
+Go to [https://github.com/CoCreateJS/CoCreate-position](https://github.com/CoCreateJS/CoCreate-position) and select your feature branch.
 Click the 'Pull Request' button and fill out the form. Pull requests are usually reviewed within a few days.
 
 ## Rebase
