@@ -26,16 +26,31 @@ function load(getPromise, setPromise, importer) {
 	return promise;
 }
 
+/**
+ *
+ * @public
+ * @environment client
+ */
 function loadDraggable() {
 	return load(() => draggablePromise, value => { draggablePromise = value; },
 		() => import(/* webpackChunkName: "position-draggable" */ "./draggable.js"));
 }
 
+/**
+ *
+ * @public
+ * @environment client
+ */
 function loadSnappable() {
 	return load(() => snappablePromise, value => { snappablePromise = value; },
 		() => import(/* webpackChunkName: "position-snappable" */ "./snappable.js"));
 }
 
+/**
+ *
+ * @public
+ * @environment client
+ */
 function loadPlacement() {
 	return load(() => placementPromise, value => { placementPromise = value; },
 		() => import(/* webpackChunkName: "position-placement" */ "./position.js"));
@@ -82,16 +97,28 @@ function start() {
 
 start();
 
-/** Load and initialize the requested position feature modules. */
+/** Load and initialize the requested position feature modules.  * @public
+ * @environment client
+ */
 export function init() {
 	start();
 	return Promise.all([draggablePromise, snappablePromise, placementPromise].filter(Boolean));
 }
 
+/**
+ *
+ * @public
+ * @environment client
+ */
 export function initElement(element, options) {
 	return loadDraggable().then(module => module.initElement(element, options));
 }
 
+/**
+ *
+ * @public
+ * @environment client
+ */
 export function initElements(elements) {
 	return loadDraggable().then(module => module.initElements(elements));
 }
@@ -99,3 +126,107 @@ export function initElements(elements) {
 export { loadDraggable, loadSnappable, loadPlacement };
 
 export default { init, initElement, initElements, loadDraggable, loadSnappable, loadPlacement };
+
+/**
+ *
+ * @name clonable-query
+ * @kind member
+ * @attribute
+ * @environment client
+ */
+
+/**
+ *
+ * @name draggable
+ * @kind member
+ * @attribute
+ * @environment client
+ */
+
+/**
+ *
+ * @name draggable-query
+ * @kind member
+ * @attribute
+ * @environment client
+ */
+
+/**
+ *
+ * @name droppable-query
+ * @kind member
+ * @attribute
+ * @environment client
+ */
+
+/**
+ *
+ * @name position-box
+ * @kind member
+ * @attribute
+ * @environment client
+ */
+
+/**
+ *
+ * @name position-element
+ * @kind member
+ * @attribute
+ * @environment client
+ */
+
+/**
+ *
+ * @name position-events
+ * @kind member
+ * @attribute
+ * @environment client
+ */
+
+/**
+ *
+ * @name position-query
+ * @kind member
+ * @attribute
+ * @environment client
+ */
+
+/**
+ *
+ * @name position-reference
+ * @kind member
+ * @attribute
+ * @environment client
+ */
+
+/**
+ *
+ * @name snappable-query
+ * @kind member
+ * @attribute
+ * @environment client
+ */
+
+/**
+ * Declarative DOM positioning, dragging, snapping, and drag-and-drop for web interfaces.
+ *
+ * @module position
+ * @environment client
+ */
+
+/**
+ * Declarative selectors recognized by this module.
+ *
+ * @name declarative-selectors
+ * @kind member
+ * @selectors
+ * @environment client
+ * @example
+ * ```json
+ * [
+ *   "[draggable], [draggable-query], [clonable-query]",
+ *   "[droppable-query], [snappable-query], [position-reference]",
+ *   "[position-query], [position-element], [position-events], [position-box]"
+ * ]
+ * ```
+ */
