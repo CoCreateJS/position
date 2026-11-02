@@ -130,80 +130,70 @@ export default { init, initElement, initElements, loadDraggable, loadSnappable, 
 /**
  *
  * @name clonable-query
- * @kind member
- * @attribute
+ * @kind attribute
  * @environment client
  */
 
 /**
  *
  * @name draggable
- * @kind member
- * @attribute
+ * @kind attribute
  * @environment client
  */
 
 /**
  *
  * @name draggable-query
- * @kind member
- * @attribute
+ * @kind attribute
  * @environment client
  */
 
 /**
  *
  * @name droppable-query
- * @kind member
- * @attribute
+ * @kind attribute
  * @environment client
  */
 
 /**
  *
  * @name position-box
- * @kind member
- * @attribute
+ * @kind attribute
  * @environment client
  */
 
 /**
  *
  * @name position-element
- * @kind member
- * @attribute
+ * @kind attribute
  * @environment client
  */
 
 /**
  *
  * @name position-events
- * @kind member
- * @attribute
+ * @kind attribute
  * @environment client
  */
 
 /**
  *
  * @name position-query
- * @kind member
- * @attribute
+ * @kind attribute
  * @environment client
  */
 
 /**
  *
  * @name position-reference
- * @kind member
- * @attribute
+ * @kind attribute
  * @environment client
  */
 
 /**
  *
  * @name snappable-query
- * @kind member
- * @attribute
+ * @kind attribute
  * @environment client
  */
 
