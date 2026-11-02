@@ -6,12 +6,12 @@ API from JavaScript. Position loads its drag, snap, and placement features on
 demand when their attributes are used.
 
 [Documentation and demo](https://CoCreateJS.com/docs/position) ·
-[GitHub repository](https://github.com/CoCreateJS/CoCreate-position)
+[GitHub repository](https://github.com/CoCreateJS/position)
 
 ![Minified size](https://img.badgesize.io/https://cdn.CoCreateJS.com/position/latest/CoCreate-position.min.js?style=flat-square&label=minified&color=orange)
 ![Gzip size](https://img.badgesize.io/https://cdn.CoCreateJS.com/position/latest/CoCreate-position.min.js?compression=gzip&style=flat-square&label=gzip&color=yellow)
-![GitHub release](https://img.shields.io/github/v/release/CoCreateJS/CoCreate-position?style=flat-square)
-![License](https://img.shields.io/github/license/CoCreateJS/CoCreate-position?style=flat-square)
+![GitHub release](https://img.shields.io/github/v/release/CoCreateJS/position?style=flat-square)
+![License](https://img.shields.io/github/license/CoCreateJS/position?style=flat-square)
 
 ![CoCreate Position demo](https://cdn.CoCreateJS.com/docs/CoCreate-position.gif)
 
@@ -199,10 +199,10 @@ continues to expose the iframe element.
 ## Links
 
 - [Documentation and demo](https://CoCreateJS.com/docs/position)
-- [Changelog](https://github.com/CoCreateJS/CoCreate-position/blob/main/CHANGELOG.md)
-- [Issues](https://github.com/CoCreateJS/CoCreate-position/issues)
-- [Contributing](https://github.com/CoCreateJS/CoCreate-position/blob/main/CONTRIBUTING.md)
-- [MIT license](https://github.com/CoCreateJS/CoCreate-position/blob/main/LICENSE)
+- [Changelog](https://github.com/CoCreateJS/position/blob/main/CHANGELOG.md)
+- [Issues](https://github.com/CoCreateJS/position/issues)
+- [Contributing](https://github.com/CoCreateJS/position/blob/main/CONTRIBUTING.md)
+- [MIT license](https://github.com/CoCreateJS/position/blob/main/LICENSE)
 
 ## About
 

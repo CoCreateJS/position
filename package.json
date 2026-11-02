@@ -26,17 +26,17 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/CoCreateJS/CoCreate-position.git"
+    "url": "git+https://github.com/CoCreateJS/position.git"
   },
   "author": "CoCreate LLC",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/CoCreateJS/CoCreate-position/issues"
+    "url": "https://github.com/CoCreateJS/position/issues"
   },
   "homepage": "https://CoCreateJS.com/docs/position",
   "funding": {
     "type": "GitHub Sponsors ❤",
-    "url": "https://github.com/sponsors/CoCreate-app"
+    "url": "https://github.com/sponsors/CoCreateJS"
   },
   "main": "./src/index.js",
   "dependencies": {
