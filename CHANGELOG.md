@@ -1,3 +1,25 @@
+# [1.12.0](https://github.com/CoCreateJS/position/compare/v1.11.2...v1.12.0) (2026-11-02)
+
+
+### Bug Fixes
+
+* add Deno specific entries to .gitignore ([8bb71be](https://github.com/CoCreateJS/position/commit/8bb71be78fc3871688d70bbbcd6b27ee1c80ab3f))
+* bump [@cocreate](https://github.com/cocreate) dependencies ([fcd861c](https://github.com/CoCreateJS/position/commit/fcd861cef655a76a82c99e382c333053b354cade))
+* bump versions ([518e533](https://github.com/CoCreateJS/position/commit/518e533178d3dcb56e147901ec2a77f414e29f90))
+* bump versions ([009988b](https://github.com/CoCreateJS/position/commit/009988b3c30a8ddaea237cfe506034da049c09a5))
+* initialize position features on load ([740b29c](https://github.com/CoCreateJS/position/commit/740b29cf0b52d3f00ee74e2ee0bbb9211f501b43))
+* preserve drag grab offset on release ([44bdee7](https://github.com/CoCreateJS/position/commit/44bdee7e9585414c6edadb2070e0291020d0e047))
+* remove trailing slash from node_modules entry in .gitignore ([6667718](https://github.com/CoCreateJS/position/commit/6667718b0ec7caf86f9e9d13ec5a0da52e696fa6))
+* update git url ([3b08a9b](https://github.com/CoCreateJS/position/commit/3b08a9b11f276020337ed7522eb6a034295b18b1))
+* update GitHub Actions to use latest versions and sync package.json description ([29e7313](https://github.com/CoCreateJS/position/commit/29e73138d69fa103d5af9a7cee45037d54e3cee8))
+
+
+### Features
+
+* add anchored positioning and robust dragging ([ac21d07](https://github.com/CoCreateJS/position/commit/ac21d07cc65e9bf1d323972c6262bc57b826218f))
+* support iframe hover positioning and drops ([24be100](https://github.com/CoCreateJS/position/commit/24be1001d95b41e89e0eb1f432272cd32af2ebbb))
+* support iframe positioning and drop targets ([c6ea9ba](https://github.com/CoCreateJS/position/commit/c6ea9ba49533d3f4c9de0d5ddb4b9605b92564d7))
+
 ## [1.11.2](https://github.com/CoCreateJS/CoCreate-position/compare/v1.11.1...v1.11.2) (2026-07-19)
 
 
