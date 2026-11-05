@@ -1,6 +1,6 @@
 {
   "name": "@cocreate/position",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "Declarative DOM positioning, dragging, snapping, and drag-and-drop for web interfaces.",
   "keywords": [
     "positioning",
